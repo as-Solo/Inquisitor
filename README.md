@@ -1,2 +1,0 @@
-# Inquisitor
-ARP spoofer
