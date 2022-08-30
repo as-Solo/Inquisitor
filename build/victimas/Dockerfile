@@ -4,6 +4,7 @@ RUN apt-get update -y
 RUN apt-get upgrade -y
 RUN apt-get install vsftpd -y
 RUN apt-get install net-tools -y
+RUN apt-get install iputils-ping -y
 
 COPY ./docker-entrypoint.sh /
 RUN chmod +x /docker-entrypoint.sh

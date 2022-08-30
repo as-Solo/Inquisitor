@@ -5,6 +5,7 @@ RUN apt-get upgrade -y
 RUN apt-get install vim -y
 RUN apt-get install python3 -y
 RUN apt-get install net-tools -y
+RUN apt-get install iputils-ping -y
 
 COPY ./docker-entrypoint.sh /
 RUN chmod +x /docker-entrypoint.sh
